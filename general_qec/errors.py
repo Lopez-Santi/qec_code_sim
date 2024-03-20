@@ -69,7 +69,7 @@ def random_qubit_z_error(logical_state, qubit_range=None):
     return random_single_qubit_error(logical_state, sigma_z, qubit_range)
 
 
-### - Gates which contain probability for errors (line connectivity) - ###
+### - Gates which contain probability for errors due to intrinsic coupling to the environment (line connectivity) - ###
 
 def gate_error(rho, error_prob, index, n):
     """
